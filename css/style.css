@@ -1,0 +1,82 @@
+body {
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.logo img {
+    width: 63px;
+    height: 24px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+#header {
+    background: white;
+    height: 50px;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: lightskyblue;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 0 5px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background: black;
+    color:white;
+    text-transform: lowercase
+}
+
+/* slider block */
+
+.slider {
+    background: url('../img/home_banner.jpg');
+   height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+.slider h1 {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+.slider p {
+    color: white
+}
+.fa {
+    font-size: 10px !important;
+    background: #fff;
+}
+.fa-facebook-official {
+  
+    color: 	#3b5998;
+}
+.fa-youtube {
+   color: #c4302b;
+}
+
+form {
+    text-align: center;
+    border: 1px solid #111;
+    width: 400px;
+    margin: 10px auto;
+    padding: 30px;
+}
+input {
+    width: 300px;
+}
